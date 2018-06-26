@@ -1,0 +1,1322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8ccf6de8-b636-4d2b-9fa1-83ec89a40ff9" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" afterPath="$PROJECT_DIR$/app/Models/User.php" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/app.php" afterPath="$PROJECT_DIR$/bootstrap/app.php" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/autoload.php" afterPath="$PROJECT_DIR$/bootstrap/autoload.php" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/cache/.gitignore" afterPath="$PROJECT_DIR$/bootstrap/cache/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/environment.php" afterPath="$PROJECT_DIR$/bootstrap/environment.php" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/0000_00_00_000000_create_users_access_table.php" afterPath="$PROJECT_DIR$/database/migrations/0000_00_00_000000_create_users_access_table.php" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/TruncateSeeder.php" afterPath="$PROJECT_DIR$/database/seeds/TruncateSeeder.php" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/UsersAccessSeeder.php" afterPath="$PROJECT_DIR$/database/seeds/UsersAccessSeeder.php" />
+      <change beforePath="$PROJECT_DIR$/public/.htaccess" afterPath="$PROJECT_DIR$/public/.htaccess" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" afterPath="$PROJECT_DIR$/public/css/app.css" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts.css" afterPath="$PROJECT_DIR$/public/css/fonts.css" />
+      <change beforePath="$PROJECT_DIR$/public/css/styles.css" afterPath="$PROJECT_DIR$/public/css/styles.css" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" afterPath="$PROJECT_DIR$/public/favicon.ico" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/SourceSansPro/SourceSansPro-Black.ttf" afterPath="$PROJECT_DIR$/public/fonts/SourceSansPro/SourceSansPro-Black.ttf" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/SourceSansPro/SourceSansPro-BlackItalic.ttf" afterPath="$PROJECT_DIR$/public/fonts/SourceSansPro/SourceSansPro-BlackItalic.ttf" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/SourceSansPro/SourceSansPro-Bold.ttf" afterPath="$PROJECT_DIR$/public/fonts/SourceSansPro/SourceSansPro-Bold.ttf" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/SourceSansPro/SourceSansPro-BoldItalic.ttf" afterPath="$PROJECT_DIR$/public/fonts/SourceSansPro/SourceSansPro-BoldItalic.ttf" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/SourceSansPro/SourceSansPro-ExtraLight.ttf" afterPath="$PROJECT_DIR$/public/fonts/SourceSansPro/SourceSansPro-ExtraLight.ttf" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/SourceSansPro/SourceSansPro-ExtraLightItalic.ttf" afterPath="$PROJECT_DIR$/public/fonts/SourceSansPro/SourceSansPro-ExtraLightItalic.ttf" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/SourceSansPro/SourceSansPro-Italic.ttf" afterPath="$PROJECT_DIR$/public/fonts/SourceSansPro/SourceSansPro-Italic.ttf" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/SourceSansPro/SourceSansPro-Light.ttf" afterPath="$PROJECT_DIR$/public/fonts/SourceSansPro/SourceSansPro-Light.ttf" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/SourceSansPro/SourceSansPro-LightItalic.ttf" afterPath="$PROJECT_DIR$/public/fonts/SourceSansPro/SourceSansPro-LightItalic.ttf" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/SourceSansPro/SourceSansPro-Regular.ttf" afterPath="$PROJECT_DIR$/public/fonts/SourceSansPro/SourceSansPro-Regular.ttf" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/SourceSansPro/SourceSansPro-Semibold.ttf" afterPath="$PROJECT_DIR$/public/fonts/SourceSansPro/SourceSansPro-Semibold.ttf" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/SourceSansPro/SourceSansPro-SemiboldItalic.ttf" afterPath="$PROJECT_DIR$/public/fonts/SourceSansPro/SourceSansPro-SemiboldItalic.ttf" />
+      <change beforePath="$PROJECT_DIR$/public/index.php" afterPath="$PROJECT_DIR$/public/index.php" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" afterPath="$PROJECT_DIR$/public/js/app.js" />
+      <change beforePath="$PROJECT_DIR$/public/js/scripts.js" afterPath="$PROJECT_DIR$/public/js/scripts.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/bootstrap/3.3.7/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/public/plugins/bootstrap/3.3.7/css/bootstrap-theme.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/bootstrap/3.3.7/css/bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/public/plugins/bootstrap/3.3.7/css/bootstrap-theme.css.map" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/bootstrap/3.3.7/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/public/plugins/bootstrap/3.3.7/css/bootstrap-theme.min.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/bootstrap/3.3.7/css/bootstrap-theme.min.css.map" afterPath="$PROJECT_DIR$/public/plugins/bootstrap/3.3.7/css/bootstrap-theme.min.css.map" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/bootstrap/3.3.7/css/bootstrap.css" afterPath="$PROJECT_DIR$/public/plugins/bootstrap/3.3.7/css/bootstrap.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/bootstrap/3.3.7/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/public/plugins/bootstrap/3.3.7/css/bootstrap.css.map" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/bootstrap/3.3.7/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/public/plugins/bootstrap/3.3.7/css/bootstrap.min.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/bootstrap/3.3.7/css/bootstrap.min.css.map" afterPath="$PROJECT_DIR$/public/plugins/bootstrap/3.3.7/css/bootstrap.min.css.map" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/bootstrap/3.3.7/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/public/plugins/bootstrap/3.3.7/fonts/glyphicons-halflings-regular.eot" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/bootstrap/3.3.7/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/public/plugins/bootstrap/3.3.7/fonts/glyphicons-halflings-regular.svg" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/bootstrap/3.3.7/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/public/plugins/bootstrap/3.3.7/fonts/glyphicons-halflings-regular.ttf" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/bootstrap/3.3.7/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/public/plugins/bootstrap/3.3.7/fonts/glyphicons-halflings-regular.woff" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/bootstrap/3.3.7/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/public/plugins/bootstrap/3.3.7/fonts/glyphicons-halflings-regular.woff2" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/bootstrap/3.3.7/js/bootstrap.js" afterPath="$PROJECT_DIR$/public/plugins/bootstrap/3.3.7/js/bootstrap.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/bootstrap/3.3.7/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/public/plugins/bootstrap/3.3.7/js/bootstrap.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/css/dataTables.bootstrap.css" afterPath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/css/dataTables.bootstrap.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/css/dataTables.bootstrap.min.css" afterPath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/css/dataTables.bootstrap.min.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/css/dataTables.bootstrap4.css" afterPath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/css/dataTables.bootstrap4.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/css/dataTables.bootstrap4.min.css" afterPath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/css/dataTables.bootstrap4.min.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/css/dataTables.foundation.css" afterPath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/css/dataTables.foundation.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/css/dataTables.foundation.min.css" afterPath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/css/dataTables.foundation.min.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/css/dataTables.jqueryui.css" afterPath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/css/dataTables.jqueryui.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/css/dataTables.jqueryui.min.css" afterPath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/css/dataTables.jqueryui.min.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/css/dataTables.material.css" afterPath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/css/dataTables.material.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/css/dataTables.material.min.css" afterPath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/css/dataTables.material.min.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/css/dataTables.semanticui.css" afterPath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/css/dataTables.semanticui.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/css/dataTables.semanticui.min.css" afterPath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/css/dataTables.semanticui.min.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/css/dataTables.uikit.css" afterPath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/css/dataTables.uikit.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/css/dataTables.uikit.min.css" afterPath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/css/dataTables.uikit.min.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/css/jquery.dataTables.css" afterPath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/css/jquery.dataTables.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/css/jquery.dataTables.min.css" afterPath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/css/jquery.dataTables.min.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/css/jquery.dataTables_themeroller.css" afterPath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/css/jquery.dataTables_themeroller.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/images/Sorting icons.psd" afterPath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/images/Sorting icons.psd" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/images/favicon.ico" afterPath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/images/favicon.ico" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/images/sort_asc.png" afterPath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/images/sort_asc.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/images/sort_asc_disabled.png" afterPath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/images/sort_asc_disabled.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/images/sort_both.png" afterPath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/images/sort_both.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/images/sort_desc.png" afterPath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/images/sort_desc.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/images/sort_desc_disabled.png" afterPath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/images/sort_desc_disabled.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/js/dataTables.bootstrap.js" afterPath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/js/dataTables.bootstrap.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/js/dataTables.bootstrap.min.js" afterPath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/js/dataTables.bootstrap.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/js/dataTables.bootstrap4.js" afterPath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/js/dataTables.bootstrap4.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/js/dataTables.bootstrap4.min.js" afterPath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/js/dataTables.bootstrap4.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/js/dataTables.foundation.js" afterPath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/js/dataTables.foundation.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/js/dataTables.foundation.min.js" afterPath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/js/dataTables.foundation.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/js/dataTables.jqueryui.js" afterPath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/js/dataTables.jqueryui.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/js/dataTables.jqueryui.min.js" afterPath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/js/dataTables.jqueryui.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/js/dataTables.material.js" afterPath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/js/dataTables.material.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/js/dataTables.material.min.js" afterPath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/js/dataTables.material.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/js/dataTables.semanticui.js" afterPath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/js/dataTables.semanticui.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/js/dataTables.semanticui.min.js" afterPath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/js/dataTables.semanticui.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/js/dataTables.uikit.js" afterPath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/js/dataTables.uikit.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/js/dataTables.uikit.min.js" afterPath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/js/dataTables.uikit.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/js/jquery.dataTables.js" afterPath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/js/jquery.dataTables.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/js/jquery.dataTables.min.js" afterPath="$PROJECT_DIR$/public/plugins/datatables/1.10.12/js/jquery.dataTables.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/css/bootstrap-datepicker.css" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/css/bootstrap-datepicker.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/css/bootstrap-datepicker.css.map" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/css/bootstrap-datepicker.css.map" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/css/bootstrap-datepicker.min.css" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/css/bootstrap-datepicker.min.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/css/bootstrap-datepicker.min.css.map" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/css/bootstrap-datepicker.min.css.map" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/css/bootstrap-datepicker.standalone.css" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/css/bootstrap-datepicker.standalone.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/css/bootstrap-datepicker.standalone.css.map" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/css/bootstrap-datepicker.standalone.css.map" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/css/bootstrap-datepicker.standalone.min.css" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/css/bootstrap-datepicker.standalone.min.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/css/bootstrap-datepicker.standalone.min.css.map" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/css/bootstrap-datepicker.standalone.min.css.map" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/css/bootstrap-datepicker3.css" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/css/bootstrap-datepicker3.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/css/bootstrap-datepicker3.css.map" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/css/bootstrap-datepicker3.css.map" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/css/bootstrap-datepicker3.min.css" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/css/bootstrap-datepicker3.min.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/css/bootstrap-datepicker3.min.css.map" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/css/bootstrap-datepicker3.min.css.map" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/css/bootstrap-datepicker3.standalone.css" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/css/bootstrap-datepicker3.standalone.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/css/bootstrap-datepicker3.standalone.css.map" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/css/bootstrap-datepicker3.standalone.css.map" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/css/bootstrap-datepicker3.standalone.min.css" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/css/bootstrap-datepicker3.standalone.min.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/css/bootstrap-datepicker3.standalone.min.css.map" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/css/bootstrap-datepicker3.standalone.min.css.map" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/js/bootstrap-datepicker.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/js/bootstrap-datepicker.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/js/bootstrap-datepicker.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/js/bootstrap-datepicker.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.ar.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.ar.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.az.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.az.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.bg.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.bg.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.bs.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.bs.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.ca.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.ca.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.cs.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.cs.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.cy.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.cy.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.da.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.da.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.de.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.de.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.el.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.el.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.en-AU.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.en-AU.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.en-GB.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.en-GB.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.eo.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.eo.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.es.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.es.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.et.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.et.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.eu.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.eu.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.fa.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.fa.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.fi.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.fi.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.fo.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.fo.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.fr-CH.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.fr-CH.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.fr.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.fr.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.gl.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.gl.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.he.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.he.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.hr.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.hr.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.hu.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.hu.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.hy.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.hy.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.id.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.id.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.is.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.is.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.it-CH.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.it-CH.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.it.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.it.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.ja.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.ja.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.ka.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.ka.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.kh.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.kh.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.kk.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.kk.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.ko.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.ko.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.kr.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.kr.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.lt.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.lt.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.lv.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.lv.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.me.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.me.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.mk.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.mk.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.mn.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.mn.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.ms.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.ms.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.nb.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.nb.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.nl-BE.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.nl-BE.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.nl.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.nl.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.no.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.no.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.pl.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.pl.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.pt-BR.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.pt-BR.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.pt.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.pt.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.ro.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.ro.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.rs-latin.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.rs-latin.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.rs.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.rs.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.ru.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.ru.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.sk.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.sk.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.sl.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.sl.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.sq.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.sq.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.sr-latin.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.sr-latin.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.sr.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.sr.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.sv.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.sv.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.sw.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.sw.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.th.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.th.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.tr.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.tr.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.uk.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.uk.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.vi.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.vi.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.zh-CN.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.zh-CN.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.zh-TW.min.js" afterPath="$PROJECT_DIR$/public/plugins/datepicker/1.6.1/locales/bootstrap-datepicker.zh-TW.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/daterangepicker/2.1.24/daterangepicker.css" afterPath="$PROJECT_DIR$/public/plugins/daterangepicker/2.1.24/daterangepicker.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/daterangepicker/2.1.24/daterangepicker.js" afterPath="$PROJECT_DIR$/public/plugins/daterangepicker/2.1.24/daterangepicker.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/daterangepicker/2.1.24/daterangepicker.scss" afterPath="$PROJECT_DIR$/public/plugins/daterangepicker/2.1.24/daterangepicker.scss" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datetimepicker/4.17.42/css/bootstrap-datetimepicker-standalone.css" afterPath="$PROJECT_DIR$/public/plugins/datetimepicker/4.17.42/css/bootstrap-datetimepicker-standalone.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datetimepicker/4.17.42/css/bootstrap-datetimepicker.css" afterPath="$PROJECT_DIR$/public/plugins/datetimepicker/4.17.42/css/bootstrap-datetimepicker.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datetimepicker/4.17.42/css/bootstrap-datetimepicker.min.css" afterPath="$PROJECT_DIR$/public/plugins/datetimepicker/4.17.42/css/bootstrap-datetimepicker.min.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datetimepicker/4.17.42/js/bootstrap-datetimepicker.js" afterPath="$PROJECT_DIR$/public/plugins/datetimepicker/4.17.42/js/bootstrap-datetimepicker.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/datetimepicker/4.17.42/js/bootstrap-datetimepicker.min.js" afterPath="$PROJECT_DIR$/public/plugins/datetimepicker/4.17.42/js/bootstrap-datetimepicker.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/fastclick/1.0.6/fastclick.js" afterPath="$PROJECT_DIR$/public/plugins/fastclick/1.0.6/fastclick.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/fastclick/1.0.6/fastclick.min.js" afterPath="$PROJECT_DIR$/public/plugins/fastclick/1.0.6/fastclick.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/css/font-awesome.css" afterPath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/css/font-awesome.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/css/font-awesome.min.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/fonts/FontAwesome.otf" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/fonts/fontawesome-webfont.eot" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/fonts/fontawesome-webfont.svg" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/fonts/fontawesome-webfont.ttf" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/fonts/fontawesome-webfont.woff" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2" afterPath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/less/animated.less" afterPath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/less/animated.less" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/less/bordered-pulled.less" afterPath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/less/bordered-pulled.less" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/less/core.less" afterPath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/less/core.less" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/less/fixed-width.less" afterPath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/less/fixed-width.less" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/less/font-awesome.less" afterPath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/less/font-awesome.less" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/less/icons.less" afterPath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/less/icons.less" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/less/larger.less" afterPath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/less/larger.less" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/less/list.less" afterPath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/less/list.less" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/less/mixins.less" afterPath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/less/mixins.less" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/less/path.less" afterPath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/less/path.less" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/less/rotated-flipped.less" afterPath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/less/rotated-flipped.less" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/less/screen-reader.less" afterPath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/less/screen-reader.less" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/less/stacked.less" afterPath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/less/stacked.less" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/less/variables.less" afterPath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/less/variables.less" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/scss/_animated.scss" afterPath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/scss/_animated.scss" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/scss/_bordered-pulled.scss" afterPath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/scss/_bordered-pulled.scss" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/scss/_core.scss" afterPath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/scss/_core.scss" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/scss/_fixed-width.scss" afterPath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/scss/_fixed-width.scss" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/scss/_icons.scss" afterPath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/scss/_icons.scss" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/scss/_larger.scss" afterPath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/scss/_larger.scss" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/scss/_list.scss" afterPath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/scss/_list.scss" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/scss/_mixins.scss" afterPath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/scss/_mixins.scss" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/scss/_path.scss" afterPath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/scss/_path.scss" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/scss/_rotated-flipped.scss" afterPath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/scss/_rotated-flipped.scss" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/scss/_screen-reader.scss" afterPath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/scss/_screen-reader.scss" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/scss/_stacked.scss" afterPath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/scss/_stacked.scss" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/scss/_variables.scss" afterPath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/scss/_variables.scss" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/scss/font-awesome.scss" afterPath="$PROJECT_DIR$/public/plugins/font-awesome/4.7.0/scss/font-awesome.scss" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/holder.js/2.9.0/holder.js" afterPath="$PROJECT_DIR$/public/plugins/holder.js/2.9.0/holder.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/holder.js/2.9.0/holder.min.js" afterPath="$PROJECT_DIR$/public/plugins/holder.js/2.9.0/holder.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/icheck.js" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/icheck.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/icheck.min.js" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/icheck.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/all.css" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/all.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/flat/_all.css" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/flat/_all.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/flat/aero.css" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/flat/aero.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/flat/aero.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/flat/aero.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/flat/aero@2x.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/flat/aero@2x.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/flat/blue.css" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/flat/blue.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/flat/blue.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/flat/blue.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/flat/blue@2x.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/flat/blue@2x.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/flat/flat.css" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/flat/flat.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/flat/flat.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/flat/flat.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/flat/flat@2x.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/flat/flat@2x.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/flat/green.css" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/flat/green.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/flat/green.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/flat/green.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/flat/green@2x.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/flat/green@2x.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/flat/grey.css" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/flat/grey.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/flat/grey.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/flat/grey.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/flat/grey@2x.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/flat/grey@2x.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/flat/orange.css" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/flat/orange.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/flat/orange.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/flat/orange.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/flat/orange@2x.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/flat/orange@2x.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/flat/pink.css" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/flat/pink.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/flat/pink.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/flat/pink.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/flat/pink@2x.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/flat/pink@2x.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/flat/purple.css" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/flat/purple.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/flat/purple.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/flat/purple.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/flat/purple@2x.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/flat/purple@2x.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/flat/red.css" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/flat/red.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/flat/red.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/flat/red.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/flat/red@2x.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/flat/red@2x.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/flat/yellow.css" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/flat/yellow.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/flat/yellow.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/flat/yellow.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/flat/yellow@2x.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/flat/yellow@2x.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/futurico/futurico.css" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/futurico/futurico.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/futurico/futurico.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/futurico/futurico.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/futurico/futurico@2x.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/futurico/futurico@2x.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/line/_all.css" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/line/_all.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/line/aero.css" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/line/aero.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/line/blue.css" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/line/blue.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/line/green.css" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/line/green.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/line/grey.css" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/line/grey.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/line/line.css" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/line/line.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/line/line.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/line/line.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/line/line@2x.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/line/line@2x.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/line/orange.css" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/line/orange.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/line/pink.css" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/line/pink.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/line/purple.css" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/line/purple.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/line/red.css" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/line/red.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/line/yellow.css" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/line/yellow.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/minimal/_all.css" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/minimal/_all.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/minimal/aero.css" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/minimal/aero.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/minimal/aero.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/minimal/aero.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/minimal/aero@2x.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/minimal/aero@2x.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/minimal/blue.css" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/minimal/blue.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/minimal/blue.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/minimal/blue.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/minimal/blue@2x.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/minimal/blue@2x.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/minimal/green.css" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/minimal/green.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/minimal/green.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/minimal/green.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/minimal/green@2x.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/minimal/green@2x.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/minimal/grey.css" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/minimal/grey.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/minimal/grey.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/minimal/grey.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/minimal/grey@2x.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/minimal/grey@2x.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/minimal/minimal.css" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/minimal/minimal.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/minimal/minimal.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/minimal/minimal.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/minimal/minimal@2x.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/minimal/minimal@2x.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/minimal/orange.css" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/minimal/orange.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/minimal/orange.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/minimal/orange.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/minimal/orange@2x.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/minimal/orange@2x.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/minimal/pink.css" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/minimal/pink.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/minimal/pink.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/minimal/pink.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/minimal/pink@2x.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/minimal/pink@2x.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/minimal/purple.css" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/minimal/purple.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/minimal/purple.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/minimal/purple.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/minimal/purple@2x.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/minimal/purple@2x.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/minimal/red.css" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/minimal/red.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/minimal/red.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/minimal/red.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/minimal/red@2x.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/minimal/red@2x.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/minimal/yellow.css" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/minimal/yellow.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/minimal/yellow.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/minimal/yellow.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/minimal/yellow@2x.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/minimal/yellow@2x.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/polaris/polaris.css" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/polaris/polaris.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/polaris/polaris.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/polaris/polaris.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/polaris/polaris@2x.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/polaris/polaris@2x.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/square/_all.css" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/square/_all.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/square/aero.css" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/square/aero.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/square/aero.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/square/aero.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/square/aero@2x.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/square/aero@2x.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/square/blue.css" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/square/blue.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/square/blue.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/square/blue.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/square/blue@2x.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/square/blue@2x.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/square/green.css" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/square/green.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/square/green.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/square/green.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/square/green@2x.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/square/green@2x.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/square/grey.css" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/square/grey.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/square/grey.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/square/grey.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/square/grey@2x.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/square/grey@2x.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/square/orange.css" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/square/orange.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/square/orange.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/square/orange.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/square/orange@2x.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/square/orange@2x.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/square/pink.css" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/square/pink.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/square/pink.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/square/pink.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/square/pink@2x.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/square/pink@2x.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/square/purple.css" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/square/purple.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/square/purple.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/square/purple.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/square/purple@2x.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/square/purple@2x.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/square/red.css" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/square/red.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/square/red.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/square/red.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/square/red@2x.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/square/red@2x.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/square/square.css" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/square/square.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/square/square.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/square/square.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/square/square@2x.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/square/square@2x.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/square/yellow.css" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/square/yellow.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/square/yellow.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/square/yellow.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/square/yellow@2x.png" afterPath="$PROJECT_DIR$/public/plugins/icheck/1.0.2/skins/square/yellow@2x.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/inputmask/3.3.4/inputmask/inputmask.date.extensions.js" afterPath="$PROJECT_DIR$/public/plugins/inputmask/3.3.4/inputmask/inputmask.date.extensions.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/inputmask/3.3.4/inputmask/inputmask.date.extensions.min.js" afterPath="$PROJECT_DIR$/public/plugins/inputmask/3.3.4/inputmask/inputmask.date.extensions.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/inputmask/3.3.4/inputmask/inputmask.dependencyLib.js" afterPath="$PROJECT_DIR$/public/plugins/inputmask/3.3.4/inputmask/inputmask.dependencyLib.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/inputmask/3.3.4/inputmask/inputmask.dependencyLib.min.js" afterPath="$PROJECT_DIR$/public/plugins/inputmask/3.3.4/inputmask/inputmask.dependencyLib.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/inputmask/3.3.4/inputmask/inputmask.extensions.js" afterPath="$PROJECT_DIR$/public/plugins/inputmask/3.3.4/inputmask/inputmask.extensions.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/inputmask/3.3.4/inputmask/inputmask.extensions.min.js" afterPath="$PROJECT_DIR$/public/plugins/inputmask/3.3.4/inputmask/inputmask.extensions.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/inputmask/3.3.4/inputmask/inputmask.js" afterPath="$PROJECT_DIR$/public/plugins/inputmask/3.3.4/inputmask/inputmask.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/inputmask/3.3.4/inputmask/inputmask.loader.js" afterPath="$PROJECT_DIR$/public/plugins/inputmask/3.3.4/inputmask/inputmask.loader.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/inputmask/3.3.4/inputmask/inputmask.loader.min.js" afterPath="$PROJECT_DIR$/public/plugins/inputmask/3.3.4/inputmask/inputmask.loader.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/inputmask/3.3.4/inputmask/inputmask.min.js" afterPath="$PROJECT_DIR$/public/plugins/inputmask/3.3.4/inputmask/inputmask.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/inputmask/3.3.4/inputmask/inputmask.numeric.extensions.js" afterPath="$PROJECT_DIR$/public/plugins/inputmask/3.3.4/inputmask/inputmask.numeric.extensions.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/inputmask/3.3.4/inputmask/inputmask.numeric.extensions.min.js" afterPath="$PROJECT_DIR$/public/plugins/inputmask/3.3.4/inputmask/inputmask.numeric.extensions.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/inputmask/3.3.4/inputmask/inputmask.phone.extensions.js" afterPath="$PROJECT_DIR$/public/plugins/inputmask/3.3.4/inputmask/inputmask.phone.extensions.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/inputmask/3.3.4/inputmask/inputmask.phone.extensions.min.js" afterPath="$PROJECT_DIR$/public/plugins/inputmask/3.3.4/inputmask/inputmask.phone.extensions.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/inputmask/3.3.4/inputmask/inputmask.regex.extensions.js" afterPath="$PROJECT_DIR$/public/plugins/inputmask/3.3.4/inputmask/inputmask.regex.extensions.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/inputmask/3.3.4/inputmask/inputmask.regex.extensions.min.js" afterPath="$PROJECT_DIR$/public/plugins/inputmask/3.3.4/inputmask/inputmask.regex.extensions.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/inputmask/3.3.4/inputmask/jquery.inputmask.js" afterPath="$PROJECT_DIR$/public/plugins/inputmask/3.3.4/inputmask/jquery.inputmask.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/inputmask/3.3.4/inputmask/jquery.inputmask.min.js" afterPath="$PROJECT_DIR$/public/plugins/inputmask/3.3.4/inputmask/jquery.inputmask.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/inputmask/3.3.4/jquery.inputmask.bundle.js" afterPath="$PROJECT_DIR$/public/plugins/inputmask/3.3.4/jquery.inputmask.bundle.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/inputmask/3.3.4/jquery.inputmask.bundle.min.js" afterPath="$PROJECT_DIR$/public/plugins/inputmask/3.3.4/jquery.inputmask.bundle.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/jquery-ui/1.12.1/images/ui-icons_444444_256x240.png" afterPath="$PROJECT_DIR$/public/plugins/jquery-ui/1.12.1/images/ui-icons_444444_256x240.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/jquery-ui/1.12.1/images/ui-icons_555555_256x240.png" afterPath="$PROJECT_DIR$/public/plugins/jquery-ui/1.12.1/images/ui-icons_555555_256x240.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/jquery-ui/1.12.1/images/ui-icons_777620_256x240.png" afterPath="$PROJECT_DIR$/public/plugins/jquery-ui/1.12.1/images/ui-icons_777620_256x240.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/jquery-ui/1.12.1/images/ui-icons_777777_256x240.png" afterPath="$PROJECT_DIR$/public/plugins/jquery-ui/1.12.1/images/ui-icons_777777_256x240.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/jquery-ui/1.12.1/images/ui-icons_cc0000_256x240.png" afterPath="$PROJECT_DIR$/public/plugins/jquery-ui/1.12.1/images/ui-icons_cc0000_256x240.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/jquery-ui/1.12.1/images/ui-icons_ffffff_256x240.png" afterPath="$PROJECT_DIR$/public/plugins/jquery-ui/1.12.1/images/ui-icons_ffffff_256x240.png" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/jquery-ui/1.12.1/jquery-ui.css" afterPath="$PROJECT_DIR$/public/plugins/jquery-ui/1.12.1/jquery-ui.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/jquery-ui/1.12.1/jquery-ui.js" afterPath="$PROJECT_DIR$/public/plugins/jquery-ui/1.12.1/jquery-ui.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/jquery-ui/1.12.1/jquery-ui.min.css" afterPath="$PROJECT_DIR$/public/plugins/jquery-ui/1.12.1/jquery-ui.min.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/jquery-ui/1.12.1/jquery-ui.min.js" afterPath="$PROJECT_DIR$/public/plugins/jquery-ui/1.12.1/jquery-ui.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/jquery-ui/1.12.1/jquery-ui.structure.css" afterPath="$PROJECT_DIR$/public/plugins/jquery-ui/1.12.1/jquery-ui.structure.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/jquery-ui/1.12.1/jquery-ui.structure.min.css" afterPath="$PROJECT_DIR$/public/plugins/jquery-ui/1.12.1/jquery-ui.structure.min.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/jquery-ui/1.12.1/jquery-ui.theme.css" afterPath="$PROJECT_DIR$/public/plugins/jquery-ui/1.12.1/jquery-ui.theme.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/jquery-ui/1.12.1/jquery-ui.theme.min.css" afterPath="$PROJECT_DIR$/public/plugins/jquery-ui/1.12.1/jquery-ui.theme.min.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/jquery/jquery-1.12.4.js" afterPath="$PROJECT_DIR$/public/plugins/jquery/jquery-1.12.4.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/jquery/jquery-1.12.4.min.js" afterPath="$PROJECT_DIR$/public/plugins/jquery/jquery-1.12.4.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/jquery/jquery-1.12.4.min.map" afterPath="$PROJECT_DIR$/public/plugins/jquery/jquery-1.12.4.min.map" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/jquery/jquery-2.2.4.js" afterPath="$PROJECT_DIR$/public/plugins/jquery/jquery-2.2.4.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/jquery/jquery-2.2.4.min.js" afterPath="$PROJECT_DIR$/public/plugins/jquery/jquery-2.2.4.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/jquery/jquery-2.2.4.min.map" afterPath="$PROJECT_DIR$/public/plugins/jquery/jquery-2.2.4.min.map" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/jquery/jquery-3.1.1.js" afterPath="$PROJECT_DIR$/public/plugins/jquery/jquery-3.1.1.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/jquery/jquery-3.1.1.min.js" afterPath="$PROJECT_DIR$/public/plugins/jquery/jquery-3.1.1.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/jquery/jquery-3.1.1.min.map" afterPath="$PROJECT_DIR$/public/plugins/jquery/jquery-3.1.1.min.map" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/jquery/jquery-3.1.1.slim.js" afterPath="$PROJECT_DIR$/public/plugins/jquery/jquery-3.1.1.slim.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/jquery/jquery-3.1.1.slim.min.js" afterPath="$PROJECT_DIR$/public/plugins/jquery/jquery-3.1.1.slim.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/jquery/jquery-3.1.1.slim.min.map" afterPath="$PROJECT_DIR$/public/plugins/jquery/jquery-3.1.1.slim.min.map" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/moment.js/2.15.1/moment-with-locales.js" afterPath="$PROJECT_DIR$/public/plugins/moment.js/2.15.1/moment-with-locales.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/moment.js/2.15.1/moment-with-locales.min.js" afterPath="$PROJECT_DIR$/public/plugins/moment.js/2.15.1/moment-with-locales.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/moment.js/2.15.1/moment.js" afterPath="$PROJECT_DIR$/public/plugins/moment.js/2.15.1/moment.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/moment.js/2.15.1/moment.min.js" afterPath="$PROJECT_DIR$/public/plugins/moment.js/2.15.1/moment.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/select2/4.0.3/css/select2.css" afterPath="$PROJECT_DIR$/public/plugins/select2/4.0.3/css/select2.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/select2/4.0.3/css/select2.min.css" afterPath="$PROJECT_DIR$/public/plugins/select2/4.0.3/css/select2.min.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/ar.js" afterPath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/ar.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/az.js" afterPath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/az.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/bg.js" afterPath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/bg.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/ca.js" afterPath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/ca.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/cs.js" afterPath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/cs.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/da.js" afterPath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/da.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/de.js" afterPath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/de.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/el.js" afterPath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/el.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/en.js" afterPath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/en.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/es.js" afterPath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/es.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/et.js" afterPath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/et.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/eu.js" afterPath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/eu.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/fa.js" afterPath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/fa.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/fi.js" afterPath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/fi.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/fr.js" afterPath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/fr.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/gl.js" afterPath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/gl.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/he.js" afterPath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/he.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/hi.js" afterPath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/hi.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/hr.js" afterPath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/hr.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/hu.js" afterPath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/hu.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/id.js" afterPath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/id.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/is.js" afterPath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/is.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/it.js" afterPath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/it.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/ja.js" afterPath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/ja.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/km.js" afterPath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/km.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/ko.js" afterPath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/ko.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/lt.js" afterPath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/lt.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/lv.js" afterPath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/lv.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/mk.js" afterPath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/mk.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/ms.js" afterPath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/ms.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/nb.js" afterPath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/nb.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/nl.js" afterPath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/nl.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/pl.js" afterPath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/pl.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/pt-BR.js" afterPath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/pt-BR.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/pt.js" afterPath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/pt.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/ro.js" afterPath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/ro.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/ru.js" afterPath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/ru.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/sk.js" afterPath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/sk.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/sr-Cyrl.js" afterPath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/sr-Cyrl.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/sr.js" afterPath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/sr.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/sv.js" afterPath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/sv.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/th.js" afterPath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/th.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/tr.js" afterPath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/tr.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/uk.js" afterPath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/uk.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/vi.js" afterPath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/vi.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/zh-CN.js" afterPath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/zh-CN.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/zh-TW.js" afterPath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/i18n/zh-TW.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/select2.full.js" afterPath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/select2.full.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/select2.full.min.js" afterPath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/select2.full.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/select2.js" afterPath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/select2.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/select2.min.js" afterPath="$PROJECT_DIR$/public/plugins/select2/4.0.3/js/select2.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/slimscroll/1.3.8/jquery.slimscroll.js" afterPath="$PROJECT_DIR$/public/plugins/slimscroll/1.3.8/jquery.slimscroll.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/slimscroll/1.3.8/jquery.slimscroll.min.js" afterPath="$PROJECT_DIR$/public/plugins/slimscroll/1.3.8/jquery.slimscroll.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/timepicker/0.5.2/css/bootstrap-timepicker.css" afterPath="$PROJECT_DIR$/public/plugins/timepicker/0.5.2/css/bootstrap-timepicker.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/timepicker/0.5.2/css/bootstrap-timepicker.min.css" afterPath="$PROJECT_DIR$/public/plugins/timepicker/0.5.2/css/bootstrap-timepicker.min.css" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/timepicker/0.5.2/css/timepicker.less" afterPath="$PROJECT_DIR$/public/plugins/timepicker/0.5.2/css/timepicker.less" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/timepicker/0.5.2/js/bootstrap-timepicker.js" afterPath="$PROJECT_DIR$/public/plugins/timepicker/0.5.2/js/bootstrap-timepicker.js" />
+      <change beforePath="$PROJECT_DIR$/public/plugins/timepicker/0.5.2/js/bootstrap-timepicker.min.js" afterPath="$PROJECT_DIR$/public/plugins/timepicker/0.5.2/js/bootstrap-timepicker.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" afterPath="$PROJECT_DIR$/public/robots.txt" />
+      <change beforePath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/css/AdminLTE.css" afterPath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/css/AdminLTE.css" />
+      <change beforePath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/css/AdminLTE.min.css" afterPath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/css/AdminLTE.min.css" />
+      <change beforePath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/css/skins/_all-skins.css" afterPath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/css/skins/_all-skins.css" />
+      <change beforePath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/css/skins/_all-skins.min.css" afterPath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/css/skins/_all-skins.min.css" />
+      <change beforePath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/css/skins/skin-black-light.css" afterPath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/css/skins/skin-black-light.css" />
+      <change beforePath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/css/skins/skin-black-light.min.css" afterPath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/css/skins/skin-black-light.min.css" />
+      <change beforePath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/css/skins/skin-black.css" afterPath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/css/skins/skin-black.css" />
+      <change beforePath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/css/skins/skin-black.min.css" afterPath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/css/skins/skin-black.min.css" />
+      <change beforePath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/css/skins/skin-blue-light.css" afterPath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/css/skins/skin-blue-light.css" />
+      <change beforePath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/css/skins/skin-blue-light.min.css" afterPath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/css/skins/skin-blue-light.min.css" />
+      <change beforePath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/css/skins/skin-blue.css" afterPath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/css/skins/skin-blue.css" />
+      <change beforePath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/css/skins/skin-blue.min.css" afterPath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/css/skins/skin-blue.min.css" />
+      <change beforePath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/css/skins/skin-green-light.css" afterPath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/css/skins/skin-green-light.css" />
+      <change beforePath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/css/skins/skin-green-light.min.css" afterPath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/css/skins/skin-green-light.min.css" />
+      <change beforePath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/css/skins/skin-green.css" afterPath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/css/skins/skin-green.css" />
+      <change beforePath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/css/skins/skin-green.min.css" afterPath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/css/skins/skin-green.min.css" />
+      <change beforePath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/css/skins/skin-purple-light.css" afterPath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/css/skins/skin-purple-light.css" />
+      <change beforePath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/css/skins/skin-purple-light.min.css" afterPath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/css/skins/skin-purple-light.min.css" />
+      <change beforePath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/css/skins/skin-purple.css" afterPath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/css/skins/skin-purple.css" />
+      <change beforePath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/css/skins/skin-purple.min.css" afterPath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/css/skins/skin-purple.min.css" />
+      <change beforePath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/css/skins/skin-red-light.css" afterPath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/css/skins/skin-red-light.css" />
+      <change beforePath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/css/skins/skin-red-light.min.css" afterPath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/css/skins/skin-red-light.min.css" />
+      <change beforePath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/css/skins/skin-red.css" afterPath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/css/skins/skin-red.css" />
+      <change beforePath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/css/skins/skin-red.min.css" afterPath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/css/skins/skin-red.min.css" />
+      <change beforePath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/css/skins/skin-yellow-light.css" afterPath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/css/skins/skin-yellow-light.css" />
+      <change beforePath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/css/skins/skin-yellow-light.min.css" afterPath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/css/skins/skin-yellow-light.min.css" />
+      <change beforePath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/css/skins/skin-yellow.css" afterPath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/css/skins/skin-yellow.css" />
+      <change beforePath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/css/skins/skin-yellow.min.css" afterPath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/css/skins/skin-yellow.min.css" />
+      <change beforePath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/img/avatar.png" afterPath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/img/avatar.png" />
+      <change beforePath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/img/avatar04.png" afterPath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/img/avatar04.png" />
+      <change beforePath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/img/avatar2.png" afterPath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/img/avatar2.png" />
+      <change beforePath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/img/avatar3.png" afterPath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/img/avatar3.png" />
+      <change beforePath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/img/avatar5.png" afterPath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/img/avatar5.png" />
+      <change beforePath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/img/boxed-bg.jpg" afterPath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/img/boxed-bg.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/img/boxed-bg.png" afterPath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/img/boxed-bg.png" />
+      <change beforePath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/img/credit/american-express.png" afterPath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/img/credit/american-express.png" />
+      <change beforePath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/img/credit/cirrus.png" afterPath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/img/credit/cirrus.png" />
+      <change beforePath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/img/credit/mastercard.png" afterPath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/img/credit/mastercard.png" />
+      <change beforePath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/img/credit/mestro.png" afterPath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/img/credit/mestro.png" />
+      <change beforePath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/img/credit/paypal.png" afterPath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/img/credit/paypal.png" />
+      <change beforePath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/img/credit/paypal2.png" afterPath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/img/credit/paypal2.png" />
+      <change beforePath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/img/credit/visa.png" afterPath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/img/credit/visa.png" />
+      <change beforePath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/img/default-50x50.gif" afterPath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/img/default-50x50.gif" />
+      <change beforePath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/img/icons.png" afterPath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/img/icons.png" />
+      <change beforePath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/img/photo1.png" afterPath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/img/photo1.png" />
+      <change beforePath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/img/photo2.png" afterPath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/img/photo2.png" />
+      <change beforePath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/img/photo3.jpg" afterPath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/img/photo3.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/img/photo4.jpg" afterPath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/img/photo4.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/img/user1-128x128.jpg" afterPath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/img/user1-128x128.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/img/user2-160x160.jpg" afterPath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/img/user2-160x160.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/img/user3-128x128.jpg" afterPath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/img/user3-128x128.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/img/user4-128x128.jpg" afterPath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/img/user4-128x128.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/img/user5-128x128.jpg" afterPath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/img/user5-128x128.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/img/user6-128x128.jpg" afterPath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/img/user6-128x128.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/img/user7-128x128.jpg" afterPath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/img/user7-128x128.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/img/user8-128x128.jpg" afterPath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/img/user8-128x128.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/js/app.js" afterPath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/js/app.js" />
+      <change beforePath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/js/app.min.js" afterPath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/js/app.min.js" />
+      <change beforePath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/js/demo.js" afterPath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/js/demo.js" />
+      <change beforePath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/js/pages/dashboard.js" afterPath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/js/pages/dashboard.js" />
+      <change beforePath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/js/pages/dashboard2.js" afterPath="$PROJECT_DIR$/public/themes/AdminLTE/2.3.7/js/pages/dashboard2.js" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/.gitignore" afterPath="$PROJECT_DIR$/public/uploads/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/avatars/.gitignore" afterPath="$PROJECT_DIR$/public/uploads/avatars/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/datatables/buttons.server-side.js" afterPath="$PROJECT_DIR$/public/vendor/datatables/buttons.server-side.js" />
+      <change beforePath="$PROJECT_DIR$/public/web.config" afterPath="$PROJECT_DIR$/public/web.config" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/backend/users/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding>
+                <marker date="1530007648668" expanded="true" signature="9:30" ph="..." />
+                <marker date="1530007648668" expanded="true" signature="42:62" ph="..." />
+                <marker date="1530007648668" expanded="true" signature="74:83" ph="..." />
+                <marker date="1530007648668" expanded="true" signature="129:136" ph="..." />
+                <marker date="1530007648668" expanded="true" signature="152:165" ph="..." />
+                <marker date="1530007648668" expanded="true" signature="253:282" ph="..." />
+                <marker date="1530007648668" expanded="true" signature="358:383" ph="..." />
+                <marker date="1530007648668" expanded="true" signature="437:460" ph="..." />
+                <marker date="1530007648668" expanded="true" signature="480:521" ph="..." />
+                <marker date="1530007648668" expanded="true" signature="590:614" ph="..." />
+                <marker date="1530007648668" expanded="true" signature="669:688" ph="..." />
+                <marker date="1530007648668" expanded="true" signature="731:740" ph="..." />
+                <marker date="1530007648668" expanded="true" signature="755:771" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="table.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/backend/users/form/table.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="50" lean-forward="false" selection-start-line="4" selection-start-column="50" selection-end-line="10" selection-end-column="54" />
+              <folding>
+                <marker date="1530009310565" expanded="true" signature="164:183" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scripts.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/backend/users/scripts.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+              <folding>
+                <marker date="1530008971183" expanded="true" signature="155:184" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Backend/UserController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="89">
+              <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Models/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Role.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Models/Role.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="24" column="43" lean-forward="false" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="datetime.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/datetime.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RoleController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Backend/RoleController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="50" column="21" lean-forward="false" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/bootstrap/autoload.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/database/seeds/TruncateSeeder.php" />
+        <option value="$PROJECT_DIR$/database/migrations/0000_00_00_000000_create_users_access_table.php" />
+        <option value="$PROJECT_DIR$/public/index.php" />
+        <option value="$PROJECT_DIR$/.local.env" />
+        <option value="$PROJECT_DIR$/database/seeds/UsersAccessSeeder.php" />
+        <option value="$PROJECT_DIR$/resources/views/backend/users/scripts.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/backend/users/form/table.blade.php" />
+        <option value="$PROJECT_DIR$/config/datetime.php" />
+        <option value="$PROJECT_DIR$/app/Models/Role.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Backend/UserController.php" />
+        <option value="$PROJECT_DIR$/app/Models/User.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <gulpfiles>
+      <GulpfileState>
+        <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
+      </GulpfileState>
+    </gulpfiles>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/vendor/mtdowling/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/laravelcollective/html" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/league/fractal" />
+      <path value="$PROJECT_DIR$/vendor/league/oauth2-server" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/league/event" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/vendor/hashids/hashids" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/laravel/passport" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/intervention/image" />
+      <path value="$PROJECT_DIR$/vendor/defuse/php-encryption" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/yajra/laravel-datatables-oracle" />
+      <path value="$PROJECT_DIR$/vendor/phpseclib/phpseclib" />
+      <path value="$PROJECT_DIR$/vendor/phpoffice/phpexcel" />
+      <path value="$PROJECT_DIR$/vendor/jeremeamia/SuperClosure" />
+      <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-diactoros" />
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/vendor/firebase/php-jwt" />
+      <path value="$PROJECT_DIR$/vendor/maatwebsite/excel" />
+      <path value="$PROJECT_DIR$/vendor/mdanter/ecc" />
+      <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/fgrosse/phpasn1" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/indigophp/hash-compat" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/laracasts/flash" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/psr-http-message-bridge" />
+      <path value="$PROJECT_DIR$/vendor/classpreloader/classpreloader" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="dashboard-merchant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dashboard-merchant" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="dashboard-merchant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dashboard-merchant" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="dashboard-merchant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dashboard-merchant" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="dashboard-merchant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dashboard-merchant" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Models" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="dashboard-merchant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dashboard-merchant" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="dashboard-merchant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dashboard-merchant" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="dashboard-merchant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dashboard-merchant" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="dashboard-merchant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dashboard-merchant" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="backend" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="dashboard-merchant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dashboard-merchant" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="backend" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="roles" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SearchEverywhereHistoryKey" value="role&#9;null&#9;null" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bootstrap" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8ccf6de8-b636-4d2b-9fa1-83ec89a40ff9" name="Default" comment="" />
+      <created>1520480897735</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1520480897735</updated>
+      <workItem from="1520480901485" duration="247000" />
+      <workItem from="1520482209724" duration="374000" />
+      <workItem from="1528344319559" duration="68000" />
+      <workItem from="1529986484807" duration="1361000" />
+      <workItem from="1529988608714" duration="5131000" />
+      <workItem from="1530007774377" duration="2727000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="9908000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/UsersAccessSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="8" lean-forward="false" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/backend/layouts/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/scripts.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/styles.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/path.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="2" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/environment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/access.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/backend/layouts/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/scripts.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Listeners/LogLogin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/path.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/TestCase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/artisan">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/styles.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/lang/en/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/compile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web/frontend.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="13" column="49" lean-forward="false" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env.example">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/TruncateSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="63" lean-forward="false" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/environment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="21" column="3" lean-forward="false" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/0000_00_00_000000_create_users_access_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1005">
+          <caret line="69" column="37" lean-forward="false" selection-start-line="69" selection-start-column="37" selection-end-line="69" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/UsersAccessSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.local.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="59" lean-forward="false" selection-start-line="1" selection-start-column="59" selection-end-line="1" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="35" column="32" lean-forward="false" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_real.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/backend/roles/scripts.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1530007648662" expanded="true" signature="155:184" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Backend/RoleController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="50" column="21" lean-forward="false" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/backend/users/form/table.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="50" lean-forward="false" selection-start-line="4" selection-start-column="50" selection-end-line="10" selection-end-column="54" />
+          <folding>
+            <marker date="1530009310565" expanded="true" signature="164:183" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/backend/users/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <marker date="1530007648668" expanded="true" signature="9:30" ph="..." />
+            <marker date="1530007648668" expanded="true" signature="42:62" ph="..." />
+            <marker date="1530007648668" expanded="true" signature="74:83" ph="..." />
+            <marker date="1530007648668" expanded="true" signature="129:136" ph="..." />
+            <marker date="1530007648668" expanded="true" signature="152:165" ph="..." />
+            <marker date="1530007648668" expanded="true" signature="253:282" ph="..." />
+            <marker date="1530007648668" expanded="true" signature="358:383" ph="..." />
+            <marker date="1530007648668" expanded="true" signature="437:460" ph="..." />
+            <marker date="1530007648668" expanded="true" signature="480:521" ph="..." />
+            <marker date="1530007648668" expanded="true" signature="590:614" ph="..." />
+            <marker date="1530007648668" expanded="true" signature="669:688" ph="..." />
+            <marker date="1530007648668" expanded="true" signature="731:740" ph="..." />
+            <marker date="1530007648668" expanded="true" signature="755:771" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/backend/users/scripts.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <folding>
+            <marker date="1530008971183" expanded="true" signature="155:184" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/datetime.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Role.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" column="43" lean-forward="false" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Backend/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
